@@ -171,7 +171,7 @@ variable "profile_name" {
 variable "jenkins_key" {
   description = "Key-Value pair stored in Jenkins"
   type 	      = string
-  default       = "newcasestudy"
+  default       = "casestudy_keypair"
   #Value is passed dynamically in Jenkins
 }
 
